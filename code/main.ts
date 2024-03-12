@@ -53,37 +53,37 @@ background.scaleTo(Math.max(
 ));
 */
 
-loadSprite("bag", "/sprites/bag.png", {
+loadSprite("bag", "/main/sprites/bag.png", {
   width: 10,
   height: 10,
 });
 
-loadSprite("ghosty", "/sprites/ghosty.png", {
+loadSprite("ghosty", "/main/sprites/ghosty.png", {
   width: 10,
   height: 10,
 });
 
-loadSprite("grass", "/sprites/grass.png", {
+loadSprite("grass", "/main/sprites/grass.png", {
   width: 20,
   height: 20
 });
 
-loadSprite("steel", "/sprites/steel.png", {
+loadSprite("steel", "/main/sprites/steel.png", {
   width: 20,
   height: 20
 });
 
-loadSprite("door", "/sprites/door.png", {
+loadSprite("door", "/main/sprites/door.png", {
   width: 7,
   height: 7
 });
 
-loadSprite("key", "/sprites/key.png", {
+loadSprite("key", "/main/sprites/key.png", {
   width: 5,
   height: 5
 });
 
-loadSprite("bean", "/sprites/bean.png", {
+loadSprite("bean", "/main/sprites/bean.png", {
   width: 2,
   height: 2
 });
