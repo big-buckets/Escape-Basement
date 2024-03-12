@@ -53,37 +53,37 @@ background.scaleTo(Math.max(
 ));
 */
 
-loadSprite("bag", "sprites/bag.png", {
+loadSprite("bag", "https://github.com/big-buckets/Escape-Basement/blob/main/sprites/bag.png?raw=true", {
   width: 10,
   height: 10,
 });
 
-loadSprite("ghosty", "sprites/ghosty.png", {
+loadSprite("ghosty", "https://github.com/big-buckets/Escape-Basement/blob/main/sprites/ghosty.png?raw=true", {
   width: 10,
   height: 10,
 });
 
-loadSprite("grass", "sprites/grass.png", {
+loadSprite("grass", "https://github.com/big-buckets/Escape-Basement/blob/main/sprites/grass.png?raw=true", {
   width: 20,
   height: 20
 });
 
-loadSprite("steel", "sprites/steel.png", {
+loadSprite("steel", "https://github.com/big-buckets/Escape-Basement/blob/main/sprites/steel.png?raw=true", {
   width: 20,
   height: 20
 });
 
-loadSprite("door", "sprites/door.png", {
+loadSprite("door", "https://github.com/big-buckets/Escape-Basement/blob/main/sprites/door.png?raw=true", {
   width: 7,
   height: 7
 });
 
-loadSprite("key", "sprites/key.png", {
+loadSprite("key", "https://github.com/big-buckets/Escape-Basement/blob/main/sprites/key.png?raw=true", {
   width: 5,
   height: 5
 });
 
-loadSprite("bean", "sprites/bean.png", {
+loadSprite("bean", "https://github.com/big-buckets/Escape-Basement/blob/main/sprites/bean.png?raw=true", {
   width: 2,
   height: 2
 });
@@ -92,7 +92,7 @@ loadSound("music", "sounds/ripandtear.mp3").then((music) =>{
 });
 
 //Enemy --begin
-loadSprite("enemy", "sprites/enemy.png", {
+loadSprite("enemy", "https://github.com/big-buckets/Escape-Basement/blob/main/sprites/enemy.png?raw=true", {
   width: 10,
   height: 10,
 });
