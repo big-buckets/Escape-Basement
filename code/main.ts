@@ -1,10 +1,11 @@
 // simple rpg style walk and talk
 import kaboom from "kaboom";
+
 kaboom({
   background: [87, 86, 86],
   //spriteUrl: "./sprites/darkdungeon",
 })
-loadSound("ripandtear", "https://raw.githubusercontent.com/big-buckets/Escape-Basement/main/sounds/ripandtear.mp3");
+loadSound("ripandtear", "sounds/ripandtear.mp3");
 const backgroundMusic = play("ripandtear", {
   loop: true, // Set loop to true for continuous playback
   volume: 0.5, // Adjust the volume as needed (0 to 1)
@@ -52,46 +53,46 @@ background.scaleTo(Math.max(
 ));
 */
 
-loadSprite("bag", "https://raw.githubusercontent.com/big-buckets/Escape-Basement/main/sprites/bag.png", {
+loadSprite("bag", "/sprites/bag.png", {
   width: 10,
   height: 10,
 });
 
-loadSprite("ghosty", "https://raw.githubusercontent.com/big-buckets/Escape-Basement/main/sprites/ghosty.png", {
+loadSprite("ghosty", "/sprites/ghosty.png", {
   width: 10,
   height: 10,
 });
 
-loadSprite("grass", "https://raw.githubusercontent.com/big-buckets/Escape-Basement/main/sprites/grass.png", {
+loadSprite("grass", "/sprites/grass.png", {
   width: 20,
   height: 20
 });
 
-loadSprite("steel", "https://raw.githubusercontent.com/big-buckets/Escape-Basement/main/sprites/steel.png", {
+loadSprite("steel", "/sprites/steel.png", {
   width: 20,
   height: 20
 });
 
-loadSprite("door", "https://raw.githubusercontent.com/big-buckets/Escape-Basement/main/sprites/door.png", {
+loadSprite("door", "/sprites/door.png", {
   width: 7,
   height: 7
 });
 
-loadSprite("key", "https://raw.githubusercontent.com/big-buckets/Escape-Basement/main/sprites/key.png", {
+loadSprite("key", "/sprites/key.png", {
   width: 5,
   height: 5
 });
 
-loadSprite("bean", "https://raw.githubusercontent.com/big-buckets/Escape-Basement/main/sprites/bean.png", {
+loadSprite("bean", "/sprites/bean.png", {
   width: 2,
   height: 2
 });
-loadSound("music", "sounds/ripandtear.mp3").then((music) =>{
+loadSound("music", "/sounds/music.mp3").then((music) =>{
    music.play({loop:true});
 });
 
 //Enemy --begin
-loadSprite("enemy", "https://github.com/big-buckets/Escape-Basement/blob/main/sprites/enemy.png?raw=true", {
+loadSprite("enemy", "/sprites/enemy.png", {
   width: 10,
   height: 10,
 });
@@ -464,5 +465,3 @@ scene("win", () => {
 })
 
 go("main", 0)
-
-kaboom()
