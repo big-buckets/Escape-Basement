@@ -83,7 +83,7 @@ loadSprite("key", "/sprites/key.png", {
   height: 5
 });
 
-loadSprite("bean", "/sprites/bean.png", {
+loadSprite("bean", "sprites/bean.png", {
   width: 2,
   height: 2
 });
