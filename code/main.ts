@@ -53,37 +53,37 @@ background.scaleTo(Math.max(
 ));
 */
 
-loadSprite("bag", "https://github.com/big-buckets/Escape-Basement/blob/main/sprites/bag.png?raw=true", {
+loadSprite("bag", "https://raw.githubusercontent.com/big-buckets/Escape-Basement/main/sprites/bag.png", {
   width: 10,
   height: 10,
 });
 
-loadSprite("ghosty", "https://github.com/big-buckets/Escape-Basement/blob/main/sprites/ghosty.png?raw=true", {
+loadSprite("ghosty", "https://raw.githubusercontent.com/big-buckets/Escape-Basement/main/sprites/ghosty.png", {
   width: 10,
   height: 10,
 });
 
-loadSprite("grass", "https://github.com/big-buckets/Escape-Basement/blob/main/sprites/grass.png?raw=true", {
+loadSprite("grass", "https://raw.githubusercontent.com/big-buckets/Escape-Basement/main/sprites/grass.png", {
   width: 20,
   height: 20
 });
 
-loadSprite("steel", "https://github.com/big-buckets/Escape-Basement/blob/main/sprites/steel.png?raw=true", {
+loadSprite("steel", "https://raw.githubusercontent.com/big-buckets/Escape-Basement/main/sprites/steel.png", {
   width: 20,
   height: 20
 });
 
-loadSprite("door", "https://github.com/big-buckets/Escape-Basement/blob/main/sprites/door.png?raw=true", {
+loadSprite("door", "https://raw.githubusercontent.com/big-buckets/Escape-Basement/main/sprites/door.png", {
   width: 7,
   height: 7
 });
 
-loadSprite("key", "https://github.com/big-buckets/Escape-Basement/blob/main/sprites/key.png?raw=true", {
+loadSprite("key", "https://raw.githubusercontent.com/big-buckets/Escape-Basement/main/sprites/key.png", {
   width: 5,
   height: 5
 });
 
-loadSprite("bean", "https://github.com/big-buckets/Escape-Basement/blob/main/sprites/bean.png?raw=true", {
+loadSprite("bean", "https://raw.githubusercontent.com/big-buckets/Escape-Basement/main/sprites/bean.png", {
   width: 2,
   height: 2
 });
