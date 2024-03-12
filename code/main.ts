@@ -53,46 +53,46 @@ background.scaleTo(Math.max(
 ));
 */
 
-loadSprite("bag", "/sprites/bag.png", {
+loadSprite("bag", "Escape-Basement/sprites/bag.png", {
   width: 10,
   height: 10,
 });
 
-loadSprite("ghosty", "/sprites/ghosty.png", {
+loadSprite("ghosty", "Escape-Basement/sprites/ghosty.png", {
   width: 10,
   height: 10,
 });
 
-loadSprite("grass", "/sprites/grass.png", {
+loadSprite("grass", "Escape-Basement/sprites/grass.png", {
   width: 20,
   height: 20
 });
 
-loadSprite("steel", "/sprites/steel.png", {
+loadSprite("steel", "Escape-Basement/sprites/steel.png", {
   width: 20,
   height: 20
 });
 
-loadSprite("door", "/sprites/door.png", {
+loadSprite("door", "Escape-Basement/sprites/door.png", {
   width: 7,
   height: 7
 });
 
-loadSprite("key", "/sprites/key.png", {
+loadSprite("key", "Escape-Basement/sprites/key.png", {
   width: 5,
   height: 5
 });
 
-loadSprite("bean", "/sprites/bean.png", {
+loadSprite("bean", "Escape-Basement/sprites/bean.png", {
   width: 2,
   height: 2
 });
-loadSound("music", "/sounds/music.mp3").then((music) =>{
+loadSound("music", "Escape-Basement/sounds/music.mp3").then((music) =>{
    music.play({loop:true});
 });
 
 //Enemy --begin
-loadSprite("enemy", "/sprites/enemy.png", {
+loadSprite("enemy", "Escape-Basement/sprites/enemy.png", {
   width: 10,
   height: 10,
 });
