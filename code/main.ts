@@ -1,5 +1,5 @@
 // simple rpg style walk and talk
-import kaboom from "kaboom";
+import kaboom from "https://unpkg.com/kaboom/dist/kaboom.mjs";
 
 kaboom({
   background: [87, 86, 86],
