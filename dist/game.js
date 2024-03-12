@@ -1,5 +1,3 @@
-import kaboom from "https://kaboomjs.com/lib/0.5.0/kaboom.js"
-
 kaboom({
   background: [87, 86, 86],
   //spriteUrl: "./sprites/darkdungeon",
