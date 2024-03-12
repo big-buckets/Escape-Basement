@@ -1,11 +1,10 @@
 // simple rpg style walk and talk
 import kaboom from "kaboom";
-
 kaboom({
   background: [87, 86, 86],
   //spriteUrl: "./sprites/darkdungeon",
 })
-loadSound("ripandtear", "sounds/ripandtear.mp3");
+loadSound("ripandtear", "https://raw.githubusercontent.com/big-buckets/Escape-Basement/main/sounds/ripandtear.mp3");
 const backgroundMusic = play("ripandtear", {
   loop: true, // Set loop to true for continuous playback
   volume: 0.5, // Adjust the volume as needed (0 to 1)
@@ -465,3 +464,5 @@ scene("win", () => {
 })
 
 go("main", 0)
+
+kaboom()
