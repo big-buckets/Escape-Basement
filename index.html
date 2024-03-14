@@ -25,7 +25,8 @@
 		  background: [87, 86, 86],
 		  //spriteUrl: "./sprites/darkdungeon",
 		})
-		loadSound("ripandtear", "sounds/ripandtear.mp3");
+		//loadSound("ripandtear", "sounds/ripandtear.mp3");
+		loadSound("ripandtear", "https://github.com/big-buckets/Escape-Basement/raw/main/sounds/ripandtear.mp3");
 		const backgroundMusic = play("ripandtear", {
 		  loop: true, // Set loop to true for continuous playback
 		  volume: 0.5, // Adjust the volume as needed (0 to 1)
@@ -114,12 +115,14 @@
 		  width: 2,
 		  height: 2
 		});
-		loadSound("music", "/sounds/music.mp3").then((music) =>{
+		//loadSound("music", "/sounds/music.mp3").then((music) =>{
+		loadSound("music", "https://github.com/big-buckets/Escape-Basement/raw/main/sounds/ripandtear.mp3").then(music) =>{
 		   music.play({loop:true});
 		});
 		
 		//Enemy --begin
-		loadSprite("enemy", "/sprites/enemy.png", {
+		//loadSprite("enemy", "/sprites/enemy.png", {
+		loadSprite("enemy", "https://raw.githubusercontent.com/big-buckets/Escape-Basement/main/sprites/enemy.png", {	
 		  width: 10,
 		  height: 10,
 		});
