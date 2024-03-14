@@ -22,8 +22,7 @@
 		import kaboom from "https://unpkg.com/kaboom/dist/kaboom.mjs";
 		
 		kaboom({
-		  background: [255, 255, 255],	
-		  //background: [87, 86, 86],
+		  background: [87, 86, 86],
 		  //spriteUrl: "./sprites/darkdungeon",
 		})
 		loadSound("ripandtear", "sounds/ripandtear.mp3");
@@ -99,12 +98,14 @@
 		  height: 7
 		});
 		
-		loadSprite("key", "/sprites/key.png", {
+		//loadSprite("key", "/sprites/key.png", {
+		loadSprite("key", "https://raw.githubusercontent.com/big-buckets/Escape-Basement/main/sprites/key.png", {	
 		  width: 5,
 		  height: 5
 		});
 		
-		loadSprite("bean", "/sprites/bean.png", {
+		//loadSprite("bean", "/sprites/bean.png", {
+		loadSprite("bean", "https://raw.githubusercontent.com/big-buckets/Escape-Basement/main/sprites/bean.png", {
 		  width: 2,
 		  height: 2
 		});
