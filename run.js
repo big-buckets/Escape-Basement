@@ -35,7 +35,7 @@ function buildGame() {
 			target: "es6",
 			keepNames: true,
 			logLevel: "silent",
-			entryPoints: ["code/main.ts"],
+			entryPoints: ["code/main.js"],
 			outfile: "dist/game.js",
 		});
 
